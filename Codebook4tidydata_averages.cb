@@ -1,0 +1,101 @@
+Codebook describing the variables in the tidy data set, tidydata_averages.txt, produced by the R-script 'run_analysis.R'.
+
+
+Description of data in the tidy dataset.
+
+All data present in the tidy dataset (apart from the columns SubjectNumber and Activity) represent the calculated mean of the raw data after
+they were sorted into groups of (i) SubjectNumber and (ii) Activity.
+Subject Number refers to the Subject on whom the experiments were performed (numbered 1-30).
+The Activity is one of 6 possibilities: 
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+The arithmetic mean of the following features was calculated for each subject and activity type, yielding 30*6=180 means per feature.
+
+Original Feature ID; Feature Name;                     Units
+1                    tBodyAcc-mean()-X                 m/s^2
+2                    tBodyAcc-mean()-Y                 m/s^2
+3                    tBodyAcc-mean()-Z                 m/s^2
+4                    tBodyAcc-std()-X                  m/s^2
+5                    tBodyAcc-std()-Y                  m/s^2
+6                    tBodyAcc-std()-Z                  m/s^2
+                                                       m/s^2
+41                   tGravityAcc-mean()-X              m/s^2
+42                   tGravityAcc-mean()-Y              m/s^2
+43                   tGravityAcc-mean()-Z              m/s^2
+44                   tGravityAcc-std()-X               m/s^2
+45                   tGravityAcc-std()-Y               m/s^2
+46                   tGravityAcc-std()-Z               m/s^2
+                                                       m/s^2
+81                   tBodyAccJerk-mean()-X             m/s^2
+82                   tBodyAccJerk-mean()-Y             m/s^2
+83                   tBodyAccJerk-mean()-Z             m/s^2
+84                   tBodyAccJerk-std()-X              m/s^2
+85                   tBodyAccJerk-std()-Y              m/s^2
+86                   tBodyAccJerk-std()-Z              m/s^2
+                                                       m/s^2
+121                  tBodyGyro-mean()-X                m/s^2
+122                  tBodyGyro-mean()-Y                m/s^2
+123                  tBodyGyro-mean()-Z                m/s^2
+124                  tBodyGyro-std()-X                 m/s^2
+125                  tBodyGyro-std()-Y                 m/s^2
+126                  tBodyGyro-std()-Z                 m/s^2
+                                                       m/s^2
+161                  tBodyGyroJerk-mean()-X            m/s^2
+162                  tBodyGyroJerk-mean()-Y            m/s^2
+163                  tBodyGyroJerk-mean()-Z            m/s^2
+164                  tBodyGyroJerk-std()-X             m/s^2
+165                  tBodyGyroJerk-std()-Y             m/s^2
+166                  tBodyGyroJerk-std()-Z             m/s^2
+                                                       m/s^2
+201                  tBodyAccMag-mean()                m/s^2
+202                  tBodyAccMag-std()                 m/s^2
+                                                       m/s^2
+214                  tGravityAccMag-mean()             m/s^2
+215                  tGravityAccMag-std()              m/s^2
+                                                       m/s^2
+227                  tBodyAccJerkMag-mean()            m/s^2
+228                  tBodyAccJerkMag-std()             m/s^2
+                                                       m/s^2
+240                  tBodyGyroMag-mean()               m/s^2
+241                  tBodyGyroMag-std()                m/s^2
+                                                       m/s^2
+253                  tBodyGyroJerkMag-mean()           m/s^2
+254                  tBodyGyroJerkMag-std()            m/s^2
+                                                       m/s^2
+266                  fBodyAcc-mean()-X                 m/s^2
+267                  fBodyAcc-mean()-Y                 m/s^2
+268                  fBodyAcc-mean()-Z                 m/s^2
+269                  fBodyAcc-std()-X                  m/s^2
+270                  fBodyAcc-std()-Y                  m/s^2
+271                  fBodyAcc-std()-Z                  m/s^2
+                                                       m/s^2
+345                  fBodyAccJerk-mean()-X             m/s^2
+346                  fBodyAccJerk-mean()-Y             m/s^2
+347                  fBodyAccJerk-mean()-Z             m/s^2
+348                  fBodyAccJerk-std()-X              m/s^2
+349                  fBodyAccJerk-std()-Y              m/s^2
+350                  fBodyAccJerk-std()-Z              m/s^2
+                                                       m/s^2
+424                  fBodyGyro-mean()-X                m/s^2
+425                  fBodyGyro-mean()-Y                m/s^2
+426                  fBodyGyro-mean()-Z                m/s^2
+427                  fBodyGyro-std()-X                 m/s^2
+428                  fBodyGyro-std()-Y                 m/s^2
+429                  fBodyGyro-std()-Z                 m/s^2
+                                                       m/s^2
+503                  fBodyAccMag-mean()                m/s^2
+504                  fBodyAccMag-std()                 m/s^2
+                                                       m/s^2
+516                  fBodyBodyAccJerkMag-mean()        m/s^2
+517                  fBodyBodyAccJerkMag-std()         m/s^2
+                                                       m/s^2
+529                  fBodyBodyGyroMag-mean()           m/s^2
+530                  fBodyBodyGyroMag-std()            m/s^2
+                                                       m/s^2
+542                  fBodyBodyGyroJerkMag-mean()       m/s^2
+543                  fBodyBodyGyroJerkMag-std()        m/s^2
